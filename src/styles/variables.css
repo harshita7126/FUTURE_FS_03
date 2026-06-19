@@ -1,0 +1,42 @@
+:root {
+  /* Colors */
+  --bg-primary: #0D0E12;
+  --bg-surface: rgba(22, 24, 30, 0.70);
+  --bg-surface-solid: #16181e;
+  --border-color: rgba(255, 255, 255, 0.08);
+  --border-hover: rgba(0, 82, 255, 0.3);
+  
+  /* Brand Colors & Gradients */
+  --primary-start: #0052FF;
+  --primary-end: #00D1FF;
+  --gradient-primary: linear-gradient(135deg, var(--primary-start) 0%, var(--primary-end) 100%);
+  --gradient-dark: linear-gradient(180deg, #12131a 0%, #0d0e12 100%);
+  --neon-glow: 0 0 20px rgba(0, 209, 255, 0.3);
+  --neon-glow-strong: 0 0 30px rgba(0, 82, 255, 0.5);
+
+  /* Text Colors */
+  --text-main: #FFFFFF;
+  --text-muted: #9EAFCB;
+  --text-accent: #00D1FF;
+
+  /* Typography */
+  --font-primary: 'Inter', sans-serif;
+  --font-secondary: 'Poppins', sans-serif;
+
+  /* Shadows */
+  --shadow-soft: 0 8px 32px 0 rgba(0, 0, 0, 0.4);
+  --shadow-neon: 0 0 15px rgba(0, 82, 255, 0.2);
+
+  /* Layout */
+  --navbar-height: 80px;
+  --border-radius-sm: 8px;
+  --border-radius-md: 16px;
+  --border-radius-lg: 24px;
+  --max-width: 1200px;
+  --backdrop-blur: blur(12px);
+
+  /* Transitions */
+  --transition-fast: 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-normal: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-slow: 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}

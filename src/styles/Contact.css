@@ -1,0 +1,146 @@
+.contact-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 50px;
+}
+
+.contact-info-column {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.info-section-title {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: var(--text-main);
+  position: relative;
+  padding-left: 12px;
+  margin-bottom: 8px;
+}
+
+.info-section-title::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 4px;
+  bottom: 4px;
+  width: 4px;
+  background: var(--gradient-primary);
+  border-radius: 2px;
+}
+
+.info-section-description {
+  color: var(--text-muted);
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.contact-info-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contact-info-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 24px;
+  border-radius: var(--border-radius-sm) !important;
+}
+
+.info-icon {
+  color: var(--text-accent);
+  flex-shrink: 0;
+  margin-top: 4px;
+}
+
+.contact-info-card h4 {
+  font-family: var(--font-secondary);
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--text-main);
+  margin-bottom: 6px;
+}
+
+.contact-info-card p {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+.highlight-text {
+  color: var(--text-accent) !important;
+  font-size: 0.8rem !important;
+  margin-top: 6px;
+  font-weight: 500;
+}
+
+/* Contact Form Column */
+.contact-form-column {
+  padding: 40px;
+  border-radius: var(--border-radius-md) !important;
+}
+
+.form-success-alert {
+  display: flex;
+  gap: 16px;
+  background: rgba(76, 175, 80, 0.08);
+  border: 1px solid rgba(76, 175, 80, 0.2);
+  border-radius: var(--border-radius-sm);
+  padding: 20px;
+  color: #FFFFFF;
+  margin-bottom: 30px;
+}
+
+.alert-icon {
+  color: #4CAF50;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.form-success-alert h4 {
+  font-size: 0.95rem;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.form-success-alert p {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  line-height: 1.4;
+}
+
+.input-error {
+  border-color: #FF4A4A !important;
+  box-shadow: 0 0 10px rgba(255, 74, 74, 0.1) !important;
+}
+
+.form-submit-btn {
+  width: 100%;
+  padding: 14px 28px;
+  font-size: 1rem;
+  border-radius: 30px;
+  margin-top: 10px;
+}
+
+/* Google Maps */
+.google-map-frame-wrapper {
+  padding: 10px;
+  border-radius: var(--border-radius-md) !important;
+}
+
+.google-map-frame-wrapper iframe {
+  filter: grayscale(1) invert(0.92) contrast(1.1); /* Blends Google Maps with our premium dark aesthetic */
+  opacity: 0.85;
+}
+
+/* Responsiveness */
+@media (min-width: 992px) {
+  .contact-grid {
+    grid-template-columns: 1.1fr 1.2fr;
+    gap: 60px;
+  }
+}

@@ -1,0 +1,192 @@
+.testimonials-section {
+  background: var(--bg-primary);
+  position: relative;
+}
+
+.testimonial-slider-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 800px;
+  margin: 0 auto;
+  gap: 20px;
+}
+
+.testimonial-slide-container {
+  flex-grow: 1;
+  overflow: hidden;
+  position: relative;
+  min-height: 380px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.testimonial-slide {
+  width: 100%;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  position: relative;
+}
+
+.testimonial-quote-icon {
+  position: absolute;
+  top: 24px;
+  left: 24px;
+  color: rgba(255, 255, 255, 0.02);
+  pointer-events: none;
+}
+
+.star-rating-row {
+  display: flex;
+  gap: 4px;
+  color: #FFC107;
+  margin-bottom: 20px;
+}
+
+.testimonial-quote {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: var(--text-main);
+  font-style: italic;
+  margin-bottom: 30px;
+  max-width: 650px;
+}
+
+.testimonial-profile {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.profile-img {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid var(--border-color);
+}
+
+.profile-details {
+  text-align: left;
+}
+
+.profile-name {
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: var(--text-main);
+}
+
+.profile-job {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+
+/* Transformation Badge */
+.transformation-badge {
+  display: flex;
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid var(--border-color);
+  padding: 10px 20px;
+  border-radius: 30px;
+  gap: 16px;
+  align-items: center;
+}
+
+.badge-stat {
+  display: flex;
+  gap: 6px;
+  font-size: 0.8rem;
+}
+
+.badge-stat-title {
+  color: var(--text-muted);
+}
+
+.badge-stat-value {
+  color: var(--text-accent);
+  font-weight: 700;
+}
+
+.badge-divider {
+  width: 1px;
+  height: 14px;
+  background: var(--border-color);
+}
+
+/* Slider Controls */
+.slider-control {
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid var(--border-color);
+  color: var(--text-muted);
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all var(--transition-fast);
+  flex-shrink: 0;
+}
+
+.slider-control:hover {
+  background: var(--gradient-primary);
+  color: #FFFFFF;
+  border-color: transparent;
+  box-shadow: var(--shadow-neon);
+}
+
+/* Indicators */
+.slider-indicators {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 24px;
+}
+
+.indicator-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.1);
+  border: none;
+  cursor: pointer;
+  transition: all var(--transition-fast);
+  padding: 0;
+}
+
+.indicator-dot.active {
+  background: var(--text-accent);
+  width: 24px;
+  border-radius: 4px;
+}
+
+/* Responsiveness */
+@media (max-width: 576px) {
+  .slider-control {
+    display: none;
+  }
+  
+  .testimonial-slide {
+    padding: 30px 16px;
+  }
+  
+  .testimonial-slide-container {
+    min-height: 440px;
+  }
+
+  .transformation-badge {
+    flex-direction: column;
+    gap: 8px;
+    border-radius: var(--border-radius-sm);
+  }
+
+  .badge-divider {
+    display: none;
+  }
+}

@@ -1,0 +1,118 @@
+.pricing-card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 40px 30px;
+  position: relative;
+  border-radius: var(--border-radius-md) !important;
+}
+
+.pricing-card.popular {
+  border-color: var(--primary-end);
+  box-shadow: var(--shadow-neon), var(--shadow-soft);
+  background: rgba(0, 82, 255, 0.05);
+}
+
+.popular-badge {
+  position: absolute;
+  top: -15px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: var(--gradient-primary);
+  color: #FFFFFF;
+  padding: 6px 16px;
+  border-radius: 20px;
+  font-family: var(--font-secondary);
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  box-shadow: var(--shadow-neon);
+  white-space: nowrap;
+}
+
+.pricing-card-header {
+  margin-bottom: 30px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.plan-name {
+  font-size: 1.35rem;
+  margin-bottom: 8px;
+  color: var(--text-main);
+}
+
+.plan-description {
+  color: var(--text-muted);
+  font-size: 0.85rem;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  min-height: 45px;
+}
+
+.plan-price-row {
+  display: flex;
+  align-items: baseline;
+  color: var(--text-main);
+  font-family: var(--font-secondary);
+}
+
+.pricing-card.popular .plan-price-row {
+  color: var(--text-accent);
+}
+
+.plan-price-row .price-currency {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-right: 4px;
+}
+
+.plan-price-row .price-amount {
+  font-size: 2.8rem;
+  font-weight: 800;
+  line-height: 1;
+}
+
+.plan-price-row .price-period {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  font-weight: 400;
+}
+
+.pricing-card-body {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.plan-features-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-bottom: 36px;
+}
+
+.plan-feature-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  font-size: 0.9rem;
+  color: var(--text-muted);
+}
+
+.feature-check-icon {
+  color: var(--text-accent);
+  flex-shrink: 0;
+}
+
+.pricing-cta-btn {
+  width: 100%;
+  margin-top: auto;
+  border-radius: 30px;
+  padding: 12px 24px;
+  font-size: 0.95rem;
+}
