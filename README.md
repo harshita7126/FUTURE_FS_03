@@ -1,7 +1,7 @@
 # 🏋️ FitForge
 
-[![Live Demo](https://img.shields.io/badge/Live-Demo-4CAF50?style=for-the-badge)](YOUR_VERCEL_URL)
-[![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?style=for-the-badge)](https://github.com/harshita7126/FUTURE_FS_03)
+[![Live Demo](https://img.shields.io/badge/Live-Demo-4CAF50?style=for-the-badge&logo=vercel&logoColor=white)](https://future-fs-03-chi-two.vercel.app)
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/harshita7126/FUTURE_FS_03)
 
 > **Future Interns** • Full Stack Web Development Fellowship  
 > **Track Assignment ID:** `FUTURE_FS_03`  
