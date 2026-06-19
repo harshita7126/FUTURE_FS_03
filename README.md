@@ -1,5 +1,8 @@
 # 🏋️ FitForge
 
+[![Live Demo](https://img.shields.io/badge/Live-Demo-4CAF50?style=for-the-badge)](YOUR_VERCEL_URL)
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?style=for-the-badge)](https://github.com/harshita7126/FUTURE_FS_03)
+
 > **Future Interns** • Full Stack Web Development Fellowship  
 > **Track Assignment ID:** `FUTURE_FS_03`  
 
@@ -37,21 +40,27 @@ FitForge bridges the gap between premium fitness branding and fluid web applicat
 ## 📸 Project Screenshots
 
 ### Home Page Showcase
+
 ![Home](screenshots/home.png)
 
 ### Training Programs Grid
+
 ![Programs](screenshots/programs.png)
 
 ### Expert Coach Directory
+
 ![Trainers](screenshots/trainers.png)
 
 ### Membership Plans
+
 ![Membership](screenshots/membership.png)
 
 ### Interactive BMI Calculator
+
 ![BMI](screenshots/bmi-calculator.png)
 
 ### Contact Page & Form
+
 ![Contact](screenshots/contact.png)
 
 ---
@@ -59,6 +68,7 @@ FitForge bridges the gap between premium fitness branding and fluid web applicat
 ## 🛠️ Tech Stack
 
 ### Frontend Core
+
 - React.js (Single Page Application architecture)
 - Vite (Fast development server and bundler)
 - React Router DOM (Client-side routing)
@@ -66,11 +76,13 @@ FitForge bridges the gap between premium fitness branding and fluid web applicat
 - Lucide React (Consistent iconography system)
 
 ### Styling & Theme Foundations
+
 - CSS3 Native Variables
 - Glassmorphism Design Elements
 - Mobile-First Responsive Breakpoints
 
 ### Deployment
+
 - Vercel Global Edge Network
 
 ---
@@ -84,6 +96,7 @@ npm run build
 ```
 
 ### Output
+
 ```text
 vite build
 ✓ Build completed successfully
