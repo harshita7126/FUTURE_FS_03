@@ -5,6 +5,7 @@
 
 > **Future Interns** • Full Stack Web Development Fellowship  
 > **Track Assignment ID:** `FUTURE_FS_03`  
+> **CIN ID:** `FIT/MAY26/FS16867`
 
 FitForge is a premium fitness and gym platform built using React, Vite, Framer Motion, and modern CSS3. The application provides an engaging digital experience for fitness enthusiasts through professional training programs, expert trainer profiles, membership plans, an interactive BMI calculator, and a responsive contact system.
 
@@ -33,7 +34,7 @@ FitForge bridges the gap between premium fitness branding and fluid web applicat
 
 | Deployment Vector | Live Demo Link | System Status |
 | :--- | :--- | :--- |
-| **Vercel Network** | Coming Soon *(Update with your specific FUTURE_FS_03 URL after deployment)* | 🟡 DEPLOYMENT PENDING |
+| **Vercel Network** | [Live Demo](https://future-fs-03-chi-two.vercel.app) | 🟢 ONLINE / STABLE |
 
 ---
 
@@ -140,6 +141,7 @@ This project was developed as part of the Future Interns Full Stack Web Developm
 - **Internship Track:** Full Stack Web Development (FS)
 - **Assignment ID:** FUTURE_FS_03
 - **Internship Duration:** 22/05/2026 – 22/06/2026
+- **Corporate Intern ID (CIN ID):** FIT/MAY26/FS16867
 
 ---
 
